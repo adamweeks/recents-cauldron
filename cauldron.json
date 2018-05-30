@@ -12,14 +12,26 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "https://github.com/adamweeks/RecentsMiniApp.git"
+                ],
+                "nativeDeps": [
+                  "react-native@0.55.3"
+                ]
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "912705dda753f1c0d68b19cba8c62a2a82d61503"
+              },
+              "containerVersion": "1.0.0"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0"
+            }
+          }
         }
       ]
     }
